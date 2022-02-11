@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+
+
+*{
+	margin:0px;
+	padding:0px;
+}
+.container{
+	background-color:gray;
+	height:100vh;
+}
+
+.main {
+	margin:0% 40%;
+	border:solid black;
+	width:15%;
+}
+
+.main>*{
+	margin:10px;
+}
+
+#result{
+	background-color:aqua
+}
+
+#form {
+	background:aqua
+}
+p{
+	font-size: 1.2em;
+}
+
+h1 {
+	text-align:center;
+}
+
+#gold{
+	display:flex;
+	width:20%;
+	border:none;
+}
+
+#gold>div{
+	flex:1;
+}
+
+
+.message{
+	overflow:auto;
+	height:50%;
+}
